@@ -34,7 +34,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
           .anyRequest().fullyAuthenticated()
         .and()
           .oauth2Login()
-          .userInfoEndpoint().userService(userService());
+            .userInfoEndpoint()
+            .userService(userService());
   }
 
   private OAuth2UserService<OAuth2UserRequest, OAuth2User> userService() {
