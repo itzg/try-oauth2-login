@@ -1,4 +1,6 @@
 
+[![](https://img.shields.io/badge/Medium-Read-lightgrey.svg)](https://medium.com/@itzgeoff/fine-tuning-oauth2-in-spring-boot-3f1eff1ea4c0)
+
 This application tests out Spring Boot's OAuth2 support for pre-defined providers. It also
 configures the `RestOperations` used during user info retrieval to ensure the `text/javascript`
 response from Facebook is processed as JSON.
